@@ -1,0 +1,515 @@
+@font-face {
+    font-family: "Sofia Pro Medium Az";
+    src: url(./assets/fonts/Sofia\ Pro\ Medium\ Az.otf);
+}
+
+@font-face {
+    font-family: "Sofia Pro Regular";
+    src: url(assets/fonts/Sofia\ Pro\ Regular\ Az.otf);
+}
+
+@font-face {
+    font-family:  "Sofia Pro Light";
+    src: url(assets/fonts/Sofia\ Pro\ Light\ Az.otf);
+}
+
+.ff-cormorant{
+    font-family: "Cormorant Infant" !important;
+}
+
+.ff-sofia-medium{
+    font-family: "Sofia Pro Medium Az" !important;
+}
+
+.ff-sofia-regular{
+    font-family: "Sofia Pro Regular" !important;
+}
+
+.ff-sofia-light{
+    font-family:  "Sofia Pro Light" !important;
+}
+
+.ls-1px{
+    letter-spacing: 1px;
+}
+
+.text-primary{
+    color: #5C3327 !important;
+}
+
+.td-none{
+    text-decoration: none !important;
+}
+
+.h-64px{
+    height: 64px;
+}
+
+.h-130px{
+    height: 130px;
+}
+
+.nav-link-menu{
+    position: relative;
+}
+
+
+.nav-link-menu{
+    position: relative;
+}
+
+.nav-link-menu::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    background-color: #d5ac5b;
+    position: absolute;
+    bottom: -10px;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    left: 50%;
+}
+
+.nav-link-menu:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+.dropdown-menu{
+    width: 1300px !important;
+    border: none !important;
+    background-color: white !important;
+    left: 50% !important;
+    transform: translateX(-50%) translateY(230px) !important;
+    border-radius: 0px !important;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 80px 90px
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block !important;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+.arrow-menu{
+    transform: rotate(180deg);
+}
+
+a:hover{
+    color: #d5ac5b !important;
+}
+
+.text-gold{
+    color: #d5ac5b;
+}
+
+.btn-style{
+    position: relative !important;
+    width: 230px !important;
+    border: none !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    font-family: "Sofia Pro Medium Az" !important;
+    line-height: 74px !important;
+    color: #5C3327 !important;
+    font-weight: 600 !important;
+    background-image: linear-gradient(126deg,#ffe3a5 15%, #ffe3a5 15%, #d5ac5b 29%,#f6d58f 36%, #ffe3a5 50%) !important;
+    background-size: 250% 200% !important;
+    background-position: 0 !important;
+    background-repeat: repeat-x !important;
+}
+
+.btn-style::after{
+    position: absolute;
+    background-image: url(assets/home/button-pattern.svg);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: '';
+}
+
+.hero-banner-item{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: cover;
+}
+
+.hero-banner-video{
+    height: 520px;
+    max-width: 890px;
+    width: 108%;
+}
+
+.hero-banner-image{
+    height: 550px;
+    max-width: 600px;
+    width: 108%;
+}
+
+.z-index-1{
+    z-index: 1;
+}
+
+.hero-banner-video::before{
+    content: '';
+    background-image: url(assets/home/left-suplemen.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.first-section-text{
+    z-index: unset;
+    position: relative;
+    border: 1px solid #d5ac5b;
+    padding: 35px 0 55px 60px;
+    left: 125px;
+    top: 30px;
+    position: relative;
+}
+
+.second-section-text{
+    z-index: unset;
+    position: relative;
+    border: 1px solid #d5ac5b;
+    padding: 35px 0 55px 60px;
+    left: -50px;
+    top: 30px;
+    position: relative;
+}
+
+.first-section-text::before{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #d5ac5b;
+    transform: rotate(45deg);
+    left: -2px;
+    top: -2px;
+}
+
+.first-section-text::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #d5ac5b;
+    transform: rotate(45deg);
+    left: -2px;
+    bottom: -2px;
+}
+
+.spacer-height{
+    width: 1px;
+    height: 90px;
+    background-color: #d5ac5b;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+
+.spacer-wrapper{
+    position: relative;
+}
+
+.spacer-wrapper::before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    transform: translateX(-50%) rotate(45deg);
+    background-color: #d5ac5b;
+    left: 50%;
+    top: -5px;
+}
+
+.spacer-wrapper::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    transform: translateX(-50%) rotate(45deg);
+    background-color: #d5ac5b;
+    left: 50%;
+    bottom: -5px;
+}
+
+.product-category{
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    font-family: "Sofia Pro Medium Az" !important;
+    color: #5C3327 !important;
+    font-weight: 600 !important;
+}
+
+
+
+.card-img{
+    position: relative;
+    top: -20px;
+    max-width: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    margin: 0 auto;
+    width: 110%;
+    border-radius: 0px !important;
+    z-index: -1;
+}
+
+.card-img img{
+    transform: scale(1);
+    max-height: 300px;
+    width: 100%;
+    display: block;
+}
+
+.swiper-slide{
+    margin: 20px 0 40px 60px !important;
+    width: 365px !important;
+}
+
+.card{
+    border-radius: 0px !important;
+    background-color: transparent !important;
+}
+
+.frame_up{
+    position: relative;
+}
+
+.border-none{
+    border: none !important;
+}
+
+.border-primary{
+    border: 1px solid #d5ac5b !important;
+}
+
+.frame_up::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #d5ac5b;
+    transform: rotate(45deg) translate(-50%);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    left: -1px;
+}
+
+.frame_up::after{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #d5ac5b;
+    transform: rotate(45deg) translate(-50%);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    left: 100%;
+}
+
+.frame_down::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #d5ac5b;
+    transform: rotate(45deg) translate(-50%);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -1px;
+}
+
+.frame_down::after{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: #d5ac5b;
+    transform: rotate(45deg) translate(-50%);
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+}
+
+.text-brown{
+    color: #5C3327 !important;
+}
+
+.tips-and-ideas-inner{
+    
+    background-size: cover;
+    background-position: center;
+    padding: 22px 24px;
+    
+}
+
+.tips-and-ideas-content{
+    max-width: 300px;
+    height: 368px;
+    overflow: hidden;
+}
+
+.fw-800{
+    font-weight: 800 !important;
+}
+
+.tips-and-ideas-outer{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.badge-gold{
+    border: 1px solid #d5ac5b;
+    padding: 4px 10px;
+    font-size: 13px;
+    background-color: white;
+    color: #d5ac5b;
+}
+
+.tips-and-ideas-wrapper{
+    padding: 22px 24px 30px !important;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: transform 0.6s;
+    opacity: 0;
+}
+
+.tips-and-ideas-outer:hover .tips-and-ideas-wrapper{
+    transform: translateY(0) !important;
+    opacity: 1;
+}
+
+.tips-and-ideas-content:hover .tips-and-ideas-inner{
+    filter: blur(10px);
+}
+
+.fr-link{
+    font-family: "Sofia Pro Medium Az" !important;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: #5C3327;
+    text-decoration: none;
+    position: relative;
+}
+
+.fr-link::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background-color: #d5ac5b;
+    left: 0;
+    bottom: 0;
+}
+
+.fr-link:hover::after{
+    animation:  .5s ease borderTransition;
+}
+
+@keyframes borderTransition {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.card-blog{
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card-blog img{
+    border-radius: 15px !important;
+}
+
+.social-channels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    border-top-left-radius: 20px;
+}
+
+.card-blog:hover img{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.border-top{
+    border-top: 1px solid #3c291c !important;
+}
+
+.menu--footer{
+    position: relative;
+}
+
+.menu--footer::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: #3c291c;
+    top: -1px;
+    left: 0;
+    transform: rotate(45deg) translate(-50%);
+}
+
+.menu--footer::before{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: #3c291c;
+    top: -1px;
+    left: 100%;
+    transform: rotate(45deg) translate(-50%);
+}
+
+footer{
+    position: relative;
+}
+
+footer::before{
+    content: '';
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    background-color: #d5ac5b;
+    top: -2px;
+    left: 50%;
+    transform: rotate(45deg) translate(-50%);
+}
